@@ -1,0 +1,171 @@
+[
+{
+"prompt": "Build a CRM for a real estate agency. Agents manage leads, properties, and deals. Admin sees analytics. WhatsApp notifications when a deal closes.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3343,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": ["WhatsApp"]
+},
+
+{
+"prompt": "Task manager for an engineering team. Tasks have due dates, assignees, priorities, and status. Team lead gets a Slack message when a task is overdue.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3519,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Slack"
+]
+},
+
+{
+"prompt": "Inventory system for a warehouse. Products, stock movements, suppliers. Low stock triggers an email alert.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 2428,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Email Service"
+]
+},
+
+{
+"prompt": "HR tool for a 50-person company. Track employees, leave requests, and performance reviews. Notify manager on Slack when leave is approved.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3107,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Slack"
+]
+},
+
+{
+"prompt": "E-commerce backend. Products, orders, customers, payments via Stripe. Order confirmation sent via Gmail.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 2840,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Stripe",
+"Gmail"
+]
+},
+
+{
+"prompt": "Event management platform. Organizers create events, attendees register, QR check-in at the door. Confirmation via WhatsApp.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 2334,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"WhatsApp"
+]
+},
+
+{
+"prompt": "Project tracker. Projects, milestones, tasks. Sync tasks to Jira. Update a Google Sheet with weekly progress.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3473,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Jira",
+"Google Sheets"
+]
+},
+
+{
+"prompt": "An app.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 1651,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": []
+},
+
+{
+"prompt": "Build something like Notion for doctors.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3377,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Electronic Health Records (EHR) systems",
+"Medical billing software",
+"Telemedicine platforms"
+]
+},
+
+{
+"prompt": "A platform with login, payments, roles, real-time chat, file uploads, native mobile, analytics, and a marketplace.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3197,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Payment Gateways",
+"Mobile Operating Systems"
+]
+},
+
+{
+"prompt": "A CRM but also a project manager but also an invoicing tool.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 3603,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Payment Gateways",
+"Calendars",
+"Email Clients"
+]
+},
+
+{
+"prompt": "Task manager, but make it smart.",
+"success": true,
+"stageFailed": null,
+"repairStrategy": "structural_repair",
+"retryCount": 0,
+"latencyMs": 2756,
+"estimatedCostUSD": 0.009,
+"integrationsDetected": [
+"Calendar Integration",
+"Email Notification"
+]
+}
+]
+
+
+
+
+
+
+
+
+
+

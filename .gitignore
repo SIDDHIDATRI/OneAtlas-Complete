@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# nextjs
+frontend/.next/
+
+# env
+.env
+backend/.env
+frontend/.env
+
+# logs
+*.log
+
+# build
+dist/
+build/
+
+# vscode
+.vscode/

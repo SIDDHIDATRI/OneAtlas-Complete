@@ -1,0 +1,78 @@
+# Evaluation Summary
+
+## Overall Results
+
+* Total Prompts Tested: 12
+* Standard Prompts: 7
+* Edge Case Prompts: 5
+* Successful Runs: 12
+* Failed Runs: 0
+* Success Rate: 100%
+* Average Latency: 2970 ms
+* Average Estimated Cost: $0.009 per run
+
+## Repair Engine Metrics
+
+* Structural Repairs Applied: 39+
+* Field Repairs Applied: 0
+* Consistency Repairs Applied: 0
+* Escalated Failures: 0
+* Full Retries: 0
+* Repair Success Rate: 100%
+
+## Most Common Failure Type
+
+Schema and workflow consistency issues:
+
+* Generic entity structures generated in some prompts
+* Missing domain-specific fields in some schemas
+* Workflow outputs occasionally not aligned with detected integrations
+* Static workflow generation observed across multiple runs
+
+## Weakest Stage
+
+* Stage: Workflow Generation
+* Impact: Medium
+* Failure Count: 12/12 runs affected by static workflow behavior
+* Completion Rate: 100%
+* Quality Consistency: Moderate
+
+## Edge Case Results
+
+| Prompt                                   | Success |
+| ---------------------------------------- | ------- |
+| An app.                                  | Yes     |
+| Build something like Notion for doctors. | Yes     |
+| Overscoped platform prompt               | Yes     |
+| CRM + Project Manager + Invoicing Tool   | Yes     |
+| Task manager, but make it smart.         | Yes     |
+
+## Integration Detection
+
+* WhatsApp: Detected Successfully
+* Slack: Detected Successfully
+* Gmail: Detected Successfully
+* Stripe: Detected Successfully
+* Jira: Detected Successfully
+* Google Sheets: Detected Successfully
+
+## Next Improvement
+
+Priority: High
+
+Target Stage:
+
+* Workflow Generation
+
+Expected Benefit:
+
+* Dynamic workflow creation
+* Better integration mapping
+* Improved AppSpec consistency
+* Reduced manual workflow definitions
+
+Projected Improvement:
+
+* Workflow consistency from ~60–70% to >90%
+* Better compliance with OneAtlas workflow requirements
+* More accurate integration-driven automation generation
